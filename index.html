@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+    <source src="chatvideo.mp4" type="video/mp4" />
+  </video>
+
+    <div class="chat-container">
+
+        <div class="chat-header" >
+            <h1 style="font-size: xx-large;">・ℕ ☯ V Λ・</h1>
+        </div>
+        <div class="chat-messages" id="chat-messages" style="background-image: url('inner.png'); background-size: cover; background-position: center;"></div>
+        <div class="chat-input-container">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
